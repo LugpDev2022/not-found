@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header.astro';
+import PageInfo from '../components/PageInfo.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
@@ -7,12 +8,10 @@ import Layout from '../layouts/Layout.astro';
   <Header />
 
   <main
-    class='flex flex-wrap gap-14 mt-14 justify-between md:gap-0 lg:max-w-[80vw] px-5 md:mt-0'
+    class='flex flex-wrap gap-14 mt-14 justify-between md:gap-0 max-w-[85vw] md:max-w-5xl px-5 md:mt-0'
   >
     <img src='/scarecrow.png' class='md:w-[47%]' alt='scarecrow image' />
 
-    <div class='w-full md:w-[47%] bg-red-500'>
-      <h1>I have bad news for you</h1>
-    </div>
+    <PageInfo />
   </main>
 </Layout>
