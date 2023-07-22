@@ -6,17 +6,13 @@ import Layout from '../layouts/Layout.astro';
 <Layout>
   <Header />
 
-  <div
-    class='flex basis-full justify-center items-start lg:items-center mt-8 lg:mt-0'
+  <main
+    class='flex flex-wrap gap-14 mt-14 justify-between md:gap-0 lg:max-w-[80vw] px-5 md:mt-0'
   >
-    <main
-      class='flex flex-wrap gap-14 justify-between lg:gap-0 lg:max-w-[80vw]'
-    >
-      <img src='/scarecrow.png' class='lg:w-[50%]' alt='scarecrow image' />
+    <img src='/scarecrow.png' class='md:w-[47%]' alt='scarecrow image' />
 
-      <div class='w-full lg:w-[50%] bg-red-500'>
-        <h1>I have bad news for you</h1>
-      </div>
-    </main>
-  </div>
+    <div class='w-full md:w-[47%] bg-red-500'>
+      <h1>I have bad news for you</h1>
+    </div>
+  </main>
 </Layout>
