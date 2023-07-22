@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Inconsolata;
+  src: url('/fonts/Inconsolata.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/fonts/SpaceMono.ttf');
+  font-display: swap;
+}
+
+.font-inconsolata {
+  font-family: Inconsolata;
+}
+
+.font-spacemono {
+  font-family: 'Space Mono';
+}
